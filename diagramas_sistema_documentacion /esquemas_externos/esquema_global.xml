@@ -1,4 +1,4 @@
-<mxfile host="Electron" pages="7">
+<mxfile host="Electron" pages="8">
   <diagram name="EE Proceso 1 (Épica 1)" id="EE_P1">
     <mxGraphModel grid="1" gridSize="10" page="1" pageWidth="1100" pageHeight="420">
       <root>
@@ -247,6 +247,95 @@
         </mxCell>
         <mxCell id="EE_A1_5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" value="Documento" vertex="1">
           <mxGeometry height="98" width="210" x="993" y="401" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Esquema Conceptual Global" id="Esquema_Global">
+    <mxGraphModel dx="1414" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EC_Emp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Personal" vertex="1">
+          <mxGeometry height="60" width="170" x="100" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="EC_Doc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#d5e8d4;strokeColor=#82b366;" value="Documento" vertex="1">
+          <mxGeometry height="60" width="170" x="500" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="EC_Ver" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" value="Versión" vertex="1">
+          <mxGeometry height="60" width="170" x="1010" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="EC_Cat" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" value="Categoría" vertex="1">
+          <mxGeometry height="60" width="170" x="500" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EC_Tip" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" value="TipoDoc" vertex="1">
+          <mxGeometry height="60" width="170" x="1010" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EC_Eti" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" value="Etiqueta" vertex="1">
+          <mxGeometry height="60" width="170" x="500" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="R_crea" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" value="crea" vertex="1">
+          <mxGeometry height="80" width="150" x="310" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="R_revi" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" value="revisa" vertex="1">
+          <mxGeometry height="80" width="150" x="310" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="R_lect" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" value="lectura" vertex="1">
+          <mxGeometry height="80" width="150" x="310" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="R_tien" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" value="tiene" vertex="1">
+          <mxGeometry height="80" width="150" x="780" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="R_pert" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" value="pertenece" vertex="1">
+          <mxGeometry height="80" width="150" x="510" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="R_tipo" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" value="es de tipo" vertex="1">
+          <mxGeometry height="80" width="150" x="780" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="R_etiq" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" value="etiquetado" vertex="1">
+          <mxGeometry height="80" width="150" x="510" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="E1" edge="1" parent="1" source="EC_Emp" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_crea" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E2" edge="1" parent="1" source="EC_Doc" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_crea" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3" edge="1" parent="1" source="EC_Emp" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_revi" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E4" edge="1" parent="1" source="EC_Doc" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_revi" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5" edge="1" parent="1" source="EC_Emp" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_lect" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E6" edge="1" parent="1" source="EC_Doc" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_lect" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E7" edge="1" parent="1" source="EC_Doc" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_tien" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8" edge="1" parent="1" source="EC_Ver" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_tien" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E9" edge="1" parent="1" source="EC_Doc" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_pert" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E10" edge="1" parent="1" source="EC_Cat" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_pert" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E11" edge="1" parent="1" source="EC_Doc" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_tipo" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E12" edge="1" parent="1" source="EC_Tip" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_tipo" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E13" edge="1" parent="1" source="EC_Doc" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_etiq" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E14" edge="1" parent="1" source="EC_Eti" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=#ffffff;" target="R_etiq" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
