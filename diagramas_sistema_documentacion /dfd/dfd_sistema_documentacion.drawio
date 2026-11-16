@@ -327,7 +327,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Nivel 2 · Proceso 2" id="L2_2">
-    <mxGraphModel dx="1540" dy="1343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1180" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1180" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -341,14 +341,9 @@
             <mxGeometry height="112" width="230" x="505" y="84" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size:12px&quot; color=&quot;#2d6a2d&quot;&gt;2.2&lt;/font&gt;&lt;br&gt;Subir nueva&lt;br&gt;versión" id="L2_2_p22">
-          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;fontSize=14;fontStyle=1;" vertex="1">
-            <mxGeometry height="112" width="230" x="505" y="304" as="geometry" />
-          </mxCell>
-        </UserObject>
         <UserObject label="&lt;font style=&quot;font-size:12px&quot; color=&quot;#2d6a2d&quot;&gt;2.5&lt;/font&gt;&lt;br&gt;Archivar&lt;br&gt;documento" id="L2_2_p25">
           <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;fontSize=14;fontStyle=1;" vertex="1">
-            <mxGeometry height="112" width="230" x="505" y="524" as="geometry" />
+            <mxGeometry height="112" width="230" x="505" y="450" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font style=&quot;font-size:12px&quot; color=&quot;#2d6a2d&quot;&gt;2.4&lt;/font&gt;&lt;br&gt;Generar historial&lt;br&gt;de versiones" id="L2_2_p24">
@@ -406,11 +401,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L2_2_e1" edge="1" parent="1" source="L2_2_adm" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;strokeWidth=1.2;fontSize=11;labelBackgroundColor=#ffffff;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" target="L2_2_p22" value="Código doc, nº nueva versión,&lt;br&gt;resumen de cambios, archivo">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="L2_2_e2" edge="1" parent="1" source="L2_2_adm" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;strokeWidth=1.2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.8798;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1395;entryY=0.1535;entryDx=0;entryDy=0;entryPerimeter=0;" target="L2_2_p25" value="Código doc">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
@@ -418,16 +408,6 @@
         </mxCell>
         <mxCell id="L2_2_e3" edge="1" parent="1" source="L2_2_p21" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;strokeWidth=1.2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.8641;exitY=0.8427;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2818;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" target="L2_2_A2" value="Documento + fecha de subida,&lt;br&gt;versión 1.0, estado «Borrador»">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L2_2_e4" edge="1" parent="1" source="L2_2_A2" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;strokeWidth=1.2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.0000;exitY=0.8043;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9841;entryY=0.6250;entryDx=0;entryDy=0;entryPerimeter=0;" target="L2_2_p22" value="Nº versión actual">
-          <mxGeometry relative="1" x="-0.36" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L2_2_e5" edge="1" parent="1" source="L2_2_p22" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;strokeWidth=1.2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.9841;exitY=0.3750;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.1957;entryDx=0;entryDy=0;entryPerimeter=0;" target="L2_2_A2" value="Nueva versión + fecha">
-          <mxGeometry relative="1" x="-0.36" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -497,7 +477,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Nivel 2 · Proceso 3" id="L2_3">
-    <mxGraphModel dx="3884" dy="1168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="3179" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -601,7 +581,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Nivel 2 · Proceso 4" id="L2_4">
-    <mxGraphModel dx="1422" dy="2420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1180" math="0" shadow="0">
+    <mxGraphModel dx="2455" dy="1203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1180" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -632,12 +612,7 @@
         </UserObject>
         <UserObject label="&lt;font style=&quot;font-size:12px&quot; color=&quot;#2d6a2d&quot;&gt;4.2&lt;/font&gt;&lt;br&gt;Asignar documento&lt;br&gt;a categoría" id="L2_4_p42">
           <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;fontSize=14;fontStyle=1;" vertex="1">
-            <mxGeometry height="112" width="230" x="565" y="554" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size:12px&quot; color=&quot;#2d6a2d&quot;&gt;4.3&lt;/font&gt;&lt;br&gt;Añadir etiqueta&lt;br&gt;al documento" id="L2_4_p43">
-          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;fontSize=14;fontStyle=1;" vertex="1">
-            <mxGeometry height="112" width="230" x="565" y="784" as="geometry" />
+            <mxGeometry height="112" width="230" x="565" y="620" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font style=&quot;font-size:12px&quot; color=&quot;#2d6a2d&quot;&gt;4.4&lt;/font&gt;&lt;br&gt;Filtrar documentos por&lt;br&gt;clasificación y permisos" id="L2_4_p44">
@@ -647,7 +622,7 @@
         </UserObject>
         <UserObject label="&lt;b&gt;A4&lt;/b&gt;&amp;nbsp;&amp;nbsp;Clasificación" id="L2_4_A4">
           <mxCell parent="1" style="shape=partialRectangle;right=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=10;fontSize=13;" vertex="1">
-            <mxGeometry height="46" width="230" x="1175" y="477" as="geometry" />
+            <mxGeometry height="46" width="230" x="1175" y="554" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;b&gt;A2&lt;/b&gt;&amp;nbsp;&amp;nbsp;Documentos" id="L2_4_A2">
@@ -670,11 +645,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L2_4_e3" edge="1" parent="1" source="L2_4_adm2" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;strokeWidth=1.2;fontSize=11;labelBackgroundColor=#ffffff;exitX=1.0000;exitY=0.8051;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0433;entryY=0.2965;entryDx=0;entryDy=0;entryPerimeter=0;" target="L2_4_p43" value="Código doc,&lt;br&gt;nombre etiqueta">
-          <mxGeometry relative="1" x="-0.1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="L2_4_e4" edge="1" parent="1" source="L2_4_p41" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;strokeWidth=1.2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.8235;exitY=0.8812;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.3257;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" target="L2_4_A4" value="Categoría (nombre, código)">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
@@ -686,11 +656,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="L2_4_e6" edge="1" parent="1" source="L2_4_p42" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;strokeWidth=1.2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.9689;exitY=0.3264;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.9508;entryDx=0;entryDy=0;entryPerimeter=0;" target="L2_4_A4" value="Relación documento–categoría">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L2_4_e7" edge="1" parent="1" source="L2_4_p43" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;strokeWidth=1.2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.8290;exitY=0.1235;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.3206;entryY=1.0000;entryDx=0;entryDy=0;entryPerimeter=0;" target="L2_4_A4" value="Etiqueta + relación documento">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -709,9 +674,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="L2_4_title" parent="1" style="text;html=1;align=left;fontSize=20;" value="&lt;b&gt;Nivel 2 · Proceso 4: Organización, categorías y búsqueda&lt;/b&gt;" vertex="1">
-          <mxGeometry height="36" width="900" x="20" y="-50" as="geometry" />
         </mxCell>
         <UserObject label="Usuario" id="nlodyjjynhx863WluvDp-1">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1">
